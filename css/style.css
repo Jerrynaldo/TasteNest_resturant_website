@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0A1316;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header>a {
+    color: #fff;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    height: 800px;
+    background: radial-gradient(#00000079, #00000080), url(../img/hero-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-wrapper {
+    padding: 150px;
+}
+
+.hero-wrapper p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hero-wrapper h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 45px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-buttons button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.hero-buttons button:hover {
+    border: 2px solid orange;
+    background-color: orange;
+} 
+
+.hero-buttons a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* main-frame */
+.main-frame {
+    display: flex;
+    justify-content: center;
+}
+
+.frame-wrapper {
+    padding: 100px;
+}
+
+.sec-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: #fff; */
+    width: 1349px;
+}
+
+.sec-container .text-div {
+    width: 500px;
+}
+
+.sec-container .img-div {
+    width: 623px;
+}
+
+.text-div span  {
+    border-bottom: 2px solid orange;
+}
+
+.text-div h2 {
+    margin: 20px 0;
+    font-size: 35px;
+    color: #fff;
+}
+
+.text-div p {
+    color: #939393;
+}
+
+.text-div button {
+    margin-top: 20px;
+    color: #fff;
+    background-color: orange;
+    padding: 15px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+/* Features */
+.features {
+    width: 100%;
+    color: #fff;
+}
+
+.features .span-div {
+    display: flex;
+    justify-content: center;
+}
+
+.span-div span {
+    border-bottom: 2px solid orange;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.features h2 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.features .paragraph {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 400px;
+    margin-bottom:50px;
+}
+
+.paragraph p {
+    color: #939393;
+}
+
+.ft-card-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+
+.ft-card {
+    width: 300px;
+
+}
+
+.ft-card h3 {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ft-card p {
+    color: #939393;
+    text-align: center;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Reservations */
+.reservation {
+    background: url(../img/Rectangle\ 682.png);
+    width: 100%;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.res-wrapper {
+    padding: 100px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.res-wrapper .left-div h2 {
+    color: #fff;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.res-buttons {
+    width: 300px;
+}
+
+.res-buttons button {
+    margin-top: 20px;
+    color: #fff;
+    background-color: orange;
+    padding: 15px;
+    border: 2px solid orange;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.res-buttons a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.res-wrapper .right-div {
+    background-color: #0A1316;
+    width: 400px;
+    height: 400px;
+    padding: 100px 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.res-wrapper .right-div h3 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.res-wrapper .right-div p {
+    color: #fff;
+    margin-bottom: 70px;
+}
